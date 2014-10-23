@@ -7,8 +7,9 @@ You should work in the app directory, and not the generated public directory. Gr
 
 ##Installation
 
+```
 cd project
 npm install
 npm install -g grunt-cli
 grunt
-
+```
