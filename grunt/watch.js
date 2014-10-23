@@ -7,7 +7,7 @@ module.exports = function(grunt) {
       options: {
         livereload: true,
       },
-      tasks: ['compass', 'cssmin'],
+      tasks: ['sass'],
     },
     js: {
       files: [

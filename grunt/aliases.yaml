@@ -2,8 +2,7 @@ default:
   - clean
   - bower-install-simple
   - concat
-  - compass
-  - newer:cssmin
+  - newer:sass
   - newer:jshint
   - newer:uglify
   - newer:styleguide  
