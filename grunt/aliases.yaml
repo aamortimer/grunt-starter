@@ -1,0 +1,18 @@
+default:
+  - clean
+  - bower-install-simple
+  - concat
+  - compass
+  - newer:cssmin
+  - newer:jshint
+  - newer:uglify
+  - newer:styleguide  
+server:
+  - connect:livereload
+  - open
+  - watch
+docs:
+  - clean
+  - newer:styleguide
+bower:
+  - bower-install-simple
