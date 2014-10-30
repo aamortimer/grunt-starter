@@ -1,5 +1,10 @@
 module.exports = function(grunt) {
   return {
-    src: ["public"]
+    default: {
+      src: ["public"]
+    },
+    docs: {
+      src: ["docs"]
+    }
   }
 }

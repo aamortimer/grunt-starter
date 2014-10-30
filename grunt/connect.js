@@ -1,11 +1,24 @@
 module.exports = function (grunt) {
   return {
-    options: {
-      port: 3000,
-      hostname: 'localhost',
+    default: {
+      options: {
+        port: 3000,
+        hostname: 'localhost',
+      },
+      livereload: {
+        keepalive: true
+      }
     },
-    livereload: {
-      keepalive: true
+    docs: {
+      options: {
+        port: 4000,
+        hostname: 'localhost',
+        base: 'docs/',
+        keepalive: true
+      },
+      livereload: {
+        keepalive: true
+      }
     }
-  };
+  }
 };

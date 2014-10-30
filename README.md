@@ -20,17 +20,33 @@ All task are controlled from the **aliases.yaml** file located in the grunt fold
 ---
 
 ##Using Twitter Bootstrap
-If you would like to add bootstrap to your project add the following to main.scss
+[http://getbootstrap.com](http://getbootstrap.com)
+
+If you would like to add bootstrap to your project add the following to **assets/sass/main.scss**
 
 ```csss
 @import 'bower_components/sass-bootstrap/lib/bootstrap';
 ```
 
 ##Using Bourbon and Neat
-If you would like to use bourbon or neat add the following to main.scss
+[Bourbon.io](http://bourbon.io)
 
-```csss
+[neat.bourbon.io](http://neat.bourbon.ioo)
+
+
+If you would like to use bourbon or neat add the following to **assets/sass/main.scss**
+
+```css
 @import 'bower_components/bourbon/dist/_bourbon';
 @import 'bower_components/neat/app/assets/stylesheets/_neat';
 
 ```
+
+---
+
+##Sprites
+Grunt will combine all **png** images located in the app/assets/sprites folder the sprite image that this generates will be moved in to **public/assets/imgs/sprite.png** to use the sprites inside your project make sure you import the _sprites.scss file in to main.scss.
+
+
+
+

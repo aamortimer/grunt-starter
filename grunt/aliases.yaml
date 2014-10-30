@@ -4,14 +4,16 @@ default:
   - concat
   - newer:sass
   - newer:jshint
-  - newer:uglify
-  - newer:styleguide  
+  - newer:uglify  
+  - newer:sprite
 server:
-  - connect:livereload
-  - open
+  - connect:default
+  - open:default:livereload
   - watch
 docs:
-  - clean
-  - newer:styleguide
+  - clean:docs
+  - newer:sass:app
+  - styleguide
+  - connect:docs
 bower:
   - bower-install-simple

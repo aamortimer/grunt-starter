@@ -5,6 +5,7 @@ module.exports = function (grunt) {
         mangle: true,
         compress: true,
         preserveComments: 'some',
+        wrap: true
       },
       files: [{
         expand: true,
