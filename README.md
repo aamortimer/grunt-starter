@@ -19,6 +19,38 @@ All task are controlled from the **aliases.yaml** file located in the grunt fold
 
 ---
 
+##Grunt Tasks
+The followin grunt tasks are available
+
+```grunt``` to run the default tasks below
+
+* clean
+* bower-install-simple
+* concat
+* newer:sass
+* newer:jshint
+* newer:uglify  
+* newer:sprite
+
+```grunt server``` to run a local test server
+
+* connect:default
+* open:default:livereload
+* watch
+
+```grunt docs``` to generate styleguides for css, and the create a local server for viewing them
+
+* clean:docs
+* newer:sass:app
+* styleguide
+* connect:docs
+
+```grunt bower``` to install bower components
+
+* bower-install-simple
+
+---
+
 ##Grunt Bump
 Use grunt bump to update the package version and create a new git tag [read docs](https://github.com/vojtajina/grunt-bump)
 
