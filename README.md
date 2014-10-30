@@ -19,6 +19,11 @@ All task are controlled from the **aliases.yaml** file located in the grunt fold
 
 ---
 
+##Grunt Bump
+Use grunt bump to update the package version and create a new git tag [read docs](https://github.com/vojtajina/grunt-bump)
+
+---
+
 ##Using Twitter Bootstrap
 [http://getbootstrap.com](http://getbootstrap.com)
 
